@@ -6,10 +6,7 @@
   "scripts": {
     "start:front": "npm start --prefix frontend",
     "start:back": "npm run dev --prefix backend",
-    "start": "concurrently \"npm run start:back\" \"npm run start:front\"",
-    "fronted:install": "npm install --prefix frontend",
-    "backend:install": "npm install --prefix backend",
-    "dev:install": "concurrently  \"npm run fronted:install\" \"npm run backend:install\""
+    "start": "concurrently \"npm run start:back\" \"npm run start:front\""
   },
   "keywords": [],
   "author": "",
